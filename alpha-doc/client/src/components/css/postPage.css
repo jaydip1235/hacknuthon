@@ -1,0 +1,53 @@
+.post-card {
+    width: 45%;
+}
+.post-card div {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 992px) {
+    .post-card {
+        width: 85%;
+   }
+}
+@media (max-width: 650px) and (min-width: 576px) {
+    .post-card-img {
+        width: 100px !important;
+   }
+}
+@media (max-width: 400px) {
+    .post-card-img {
+        width: 100px !important;
+   }
+}
+.slick-slide div div div {
+    width: 85%;
+    margin: auto !important;
+}
+.slick-slider {
+    width: 90vw !important;
+    margin: 50px auto;
+}
+@media (min-width: 576px) {
+    .post-gallery {
+        height: 97vh;
+   }
+    .post-grid {
+        height: 100%;
+        overflow-y: scroll;
+   }
+}
+.inline-text {
+    display: inline-block;
+}
+.profile-details {
+    margin-bottom: 0 !important;
+}
+.profile-options {
+    display: flex;
+    justify-content: space-between;
+}
+.author-icon {
+    font-size: 0.875rem !important;
+}
